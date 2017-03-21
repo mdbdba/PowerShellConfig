@@ -1,0 +1,34 @@
+{
+  "_Info": [
+    "This is the JSON based Configuration template file",
+    "Author: mdb"
+  ],
+  "InternalInfo": {
+    "project": "Configuration Template file",
+    "Modified": "03/13/2017",
+    "Description": "Sample file for json config file powershell script. Use the '_' before a title to add an explanation in the basic section."
+  },
+  "Basic": {
+    "_ConfigVersion": "Configuration Version",
+    "ConfigVersion": "00.00.01",
+    "_ServerName": "Name of the database server we expect for this environment"
+  },
+  "Dev": {
+    "ServerName": "DevServer"
+  },
+  "QA": { 
+    "ServerName": "QAServer"
+  },
+  "UAT": { 
+    "ServerName": "UATServer"
+  },
+  "Production": { 
+    "ServerName": "ProdServer"
+  },
+  "TestPC": { 
+    "ServerName": "myPC"
+  },
+  "TestLapTop": { 
+    "ServerName": "myLaptop"
+  }
+}
